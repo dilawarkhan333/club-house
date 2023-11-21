@@ -1,0 +1,36 @@
+/* Story.css */
+.story {
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    border-radius: 12px;
+    width: 120px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 16px;
+    margin-right: 10px;
+    cursor: pointer;
+    transition: transform 100ms ease-in;
+  }
+  
+  .story:hover {
+    transform: scale(1.07);
+  }
+  
+  .story__avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-size: cover;
+    margin-bottom: 8px;
+  }
+  
+  .story h4 {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 500;
+    margin: 0;
+  }
+  

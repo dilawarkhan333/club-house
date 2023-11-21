@@ -1,0 +1,14 @@
+/* StoryReels.css */
+.storyReels {
+    
+    align-items: center;
+    overflow-x: scroll;
+    padding: 20px;
+    margin-bottom: 20px;
+    scrollbar-width: none; /* Hide scrollbar for better appearance */
+  }
+  
+  .storyReels::-webkit-scrollbar {
+    display: flex; /* Hide scrollbar for Chrome/Safari */
+  }
+  

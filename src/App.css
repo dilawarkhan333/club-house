@@ -1,0 +1,185 @@
+.App {
+  text-align: center;
+}
+
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.clb {
+display: grid;
+	justify-items: center;
+  justify-content: center;
+  align-items: center;
+ 
+
+}
+
+.txtcntr{
+
+text-align: center;
+color: white;
+font-weight: 600;
+
+
+}
+
+.toper1{
+font-family:'Times New Roman', Times, serif;
+font-size:  2.25rem; 
+margin-left: 130px;
+
+  
+}
+
+.main-container{
+  display: flex;
+  border-width: 1px;
+  border-color: rgb(226 232 240);
+  border-style: solid;
+  margin-left: 450px;
+  margin-right: 450px;
+margin-bottom: 20px;
+border-radius: 0.5rem;
+box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+background-color: white;
+}
+.fields {
+  display: grid;
+	justify-items: center;
+  /* justify-content: center; */
+  align-items: center;
+
+
+}
+
+
+.tapbar{
+
+margin-left: 37px;
+text-underline-offset: 4px;
+}
+
+
+.clblog{
+  display: grid;
+	justify-items: center;
+  justify-content: center;
+  align-items: center;
+ 
+
+}
+
+.log-container{
+display: flex;
+  border-width: 1px;
+  border-color: rgb(226 232 240);
+  background-color: white;
+  border-style: solid;
+  margin-left: 460px;
+  margin-right: 460px;
+margin-bottom: 20px;
+border-radius: 0.5rem;
+box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+}
+
+.txtfields{
+
+  display: grid;
+	justify-items: center;
+  /* justify-content: center; */
+  align-items: center;
+
+}
+.tplog{
+
+  font-family:'Times New Roman', Times, serif;
+font-size:  2.25rem; 
+margin-left: 138px;
+}
+
+.line{
+
+color:rgb(226 232 240) ;
+margin-bottom: 10px;
+
+}
+
+.lgbtn{
+  background-image: linear-gradient( 99deg,  rgba(115,18,81,1) 10.6%, rgba(28,28,28,1) 118% );
+}
+
+.sgnbtn{
+
+background-image: linear-gradient( 99deg,  rgba(115,18,81,1) 10.6%, rgba(28,28,28,1) 118% );
+}
+
+.lgbar{
+  font-weight: 500;
+  font-size: 0.875rem; /* 14px */
+line-height: 1.25rem;
+
+
+}
+
+
+
+.demitxt{
+  display: flex;
+  text-align: center; 
+
+}
+
+.txtf{
+  text-align: center; 
+  font-weight: 500;
+ 
+}
+
+
+
+.icns{
+ 
+  display: flex;
+ justify-content: center;
+}
+
+.lgicn{
+
+  color: rgba(143, 23, 99, 0.961);
+	outline-color: #db2777;
+  display: flex;
+  column-gap: 0.5rem;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
